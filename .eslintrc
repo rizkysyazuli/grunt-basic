@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "parser": "esprima",
+    "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "script"
+    },
+    "rules": {
+        "indent": ["warn", 4],
+        "no-mixed-spaces-and-tabs": ["warn"],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["off", "always"],
+        "no-unused-vars": ["off"],
+        "no-undef": ["off"],
+        "no-console": ["off"],
+        "comma-dangle": ["error", "never"],
+        "no-empty": ["warn"]
+    }
+}
