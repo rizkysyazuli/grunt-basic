@@ -1,0 +1,5 @@
+{
+    "base_url": "http://localhost/projectname",
+    "asset_path": "public/assets",
+    "template_path": "public/prototype"
+}
